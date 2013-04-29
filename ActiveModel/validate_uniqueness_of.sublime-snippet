@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[it { should validate_uniqueness_of(:${1:$SELECTION})}
+]]></content>
+    <tabTrigger>itsvu</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Active Model - Validate uniqueness of</description>
+</snippet>
