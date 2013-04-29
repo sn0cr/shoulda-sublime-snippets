@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[it { should have_many(:${1:$SELECTION})${2}}
+]]></content>
+    <tabTrigger>itshm</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Active Record - Have many </description>
+</snippet>

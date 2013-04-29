@@ -13,4 +13,11 @@ git clone https://github.com/sn0cr/shoulda-sublime-snippets.git
 ```ruby
 itsvp: it { should validate_presence_of(:tab) }
 itsvu: it { should validate_uniqueness_of(:tab) }
+itsei: it { should ensure_inclusion_of(:tab).in_array(["a", "b"])}
+```
+### Active Record
+
+```ruby
+itsbt: it { should belong_to(:tab)}
+itshm: it { should have_many(:tabs)}
 ```

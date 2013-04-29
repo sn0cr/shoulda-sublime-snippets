@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[it { should ensure_inclusion_of(:${1:$SELECTION}).in_${2:array}(${3:$SELECTION})}
+]]></content>
+    <tabTrigger>itsei</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Active Model - Ensure inclusion of</description>
+</snippet>
