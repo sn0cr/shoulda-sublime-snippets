@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[it { should validate_presence_of(:${1:$SELECTION})}
+]]></content>
+    <tabTrigger>itsvp</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Active Model - Validate Presence of</description>
+</snippet>
