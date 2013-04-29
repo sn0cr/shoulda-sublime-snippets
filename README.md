@@ -7,7 +7,9 @@ git clone https://github.com/sn0cr/shoulda-sublime-snippets.git
 ```
 
 ## Snippets
+
 ### Active Model
-itsvp ``` ruby
-it { should validate_presence_of(:tab) }
+
+```ruby 
+itsvp: it { should validate_presence_of(:tab) }
 ```
