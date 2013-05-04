@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[it {should render_template(:${1:$SELECTION})}
+]]></content>
+    <tabTrigger>itsrt</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Active Controller - Render template</description>
+</snippet>

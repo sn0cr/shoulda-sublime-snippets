@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[it {should respond_with(:${1:$SELECTION})}
+]]></content>
+    <tabTrigger>itsrw</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Active Controller - Respond with</description>
+</snippet>

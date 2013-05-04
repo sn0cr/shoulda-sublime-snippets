@@ -22,3 +22,9 @@ itsei: it { should ensure_inclusion_of(:tab).in_array(["a", "b"])}
 itsbt: it { should belong_to(:tab)}
 itshm: it { should have_many(:tabs)}
 ```
+### Active Controller
+
+```ruby
+itsrw: it {should respond_with(:tabs)}
+itsrt: it { should render_template("tabs/all")}
+```
